@@ -741,7 +741,7 @@
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
 // #define DEFAULT_MAX_FEEDRATE          { 500, 500, 5, 70 } // Original values
-#define DEFAULT_MAX_FEEDRATE          { 300, 300, 5, 35 }
+#define DEFAULT_MAX_FEEDRATE          { 500, 500, 5, 35 }
 
 //#define LIMITED_MAX_FR_EDITING        // Limit edit via M203 or LCD to DEFAULT_MAX_FEEDRATE * 2
 #if ENABLED(LIMITED_MAX_FR_EDITING)
