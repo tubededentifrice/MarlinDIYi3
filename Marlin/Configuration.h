@@ -741,7 +741,7 @@
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
 // #define DEFAULT_MAX_FEEDRATE          { 500, 500, 5, 70 } // Original values
-#define DEFAULT_MAX_FEEDRATE          { 500, 500, 5, 35 }
+#define DEFAULT_MAX_FEEDRATE          { 500, 500, 5, 50 }
 
 //#define LIMITED_MAX_FR_EDITING        // Limit edit via M203 or LCD to DEFAULT_MAX_FEEDRATE * 2
 #if ENABLED(LIMITED_MAX_FR_EDITING)
@@ -964,8 +964,8 @@
  *
  * Specify a Probe position as { X, Y, Z }
  */
-#define NOZZLE_TO_PROBE_OFFSET_X 44
-#define NOZZLE_TO_PROBE_OFFSET_Y 14
+#define NOZZLE_TO_PROBE_OFFSET_X 47
+#define NOZZLE_TO_PROBE_OFFSET_Y 20
 #define NOZZLE_TO_PROBE_OFFSET_Z 0
 #define NOZZLE_TO_PROBE_OFFSET { NOZZLE_TO_PROBE_OFFSET_X, NOZZLE_TO_PROBE_OFFSET_Y, NOZZLE_TO_PROBE_OFFSET_Z }
 
@@ -1104,8 +1104,8 @@
 // @section machine
 
 // The size of the print bed
-#define X_BED_SIZE 200
-#define Y_BED_SIZE 210
+#define X_BED_SIZE 214
+#define Y_BED_SIZE 214
 
 // Travel limits (mm) after homing, corresponding to endstop positions.
 #define X_MIN_POS 0
